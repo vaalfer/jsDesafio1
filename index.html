@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Desafio 1 JS</title>
+</head>
+<body>
+    <div class="container">
+
+
+
+        <div class="card">
+            <div class="card-img">
+                <img class="ipad-img"  src="image\kisspng-ipad-3-ipad-4-ipad-2-ipad-air-ipad-1-ipad-tablet-transparent-background-5a753eb2124ce8.833673531517633202075.png">
+            </div>
+            <div class="card-img-description"> <h3>Ipad Air 128 gb</h1> </div>
+            <div class="card-price">
+                Precio: $289.000
+            </div>
+            <div class="card-input">
+                <input id="cantidadinp" class="quantity-input" placeholder="Cantidad" type="number">
+                <input id="colorinp" class="color-input" placeholder="Color">
+            </div>
+            <div class="btn-price">
+                <button class="calculate-button" onclick="calcularTotal()">Calcular Total</button>
+            </div>
+        </div>
+
+        <div class="info-price-quatity">
+            <p id="totalfinal"></p>
+            <p id="cantidadfinal"></p>
+            <p id="colorfinal" class="circulo"></p>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+<script src="js\precioTotal.js"></script>
+</html>
